@@ -1,4 +1,4 @@
-const bar = require('bar');
+const bar = require('../');
 
 describe('bar', () => {
   test('returns a string', () => {

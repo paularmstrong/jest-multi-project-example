@@ -1,3 +1,1 @@
-module.exports = () => {
-  return 'this is bar';
-};
+module.exports = require('bar');
