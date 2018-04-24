@@ -26,7 +26,12 @@ Jest does not appear to resolve related changes across project configurations an
 
 ## Alternatively
 
-If we run `yarn test --findRelatedTests --listTests projects/bar/index.js`, we _do_ receive the original two files expected from the previous case.
+If we run `yarn test --findRelatedTests --listTests projects/bar/index.js`, we _do_ receive only the file for the direct project, `bar`.
+
+```
+projects/bar/__tests__/index.test.js
+```
+
 
 ## Why this is problematic
 
